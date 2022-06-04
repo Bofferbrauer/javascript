@@ -3,7 +3,11 @@ alert(hello)
 
 
 let player = prompt("Rock, Paper or Scissors? :");
+alert(player)
 playerSelection = player.toLowerCase();
+if (playerSelection != "rock" || "paper" || "scissors") {
+      alert("Type one of the three wordsplease, and nothing else!")
+}
  console.log(playerSelection);
 
 const choices = ["rock", "paper", "scissors"];
