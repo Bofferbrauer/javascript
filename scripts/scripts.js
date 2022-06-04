@@ -2,10 +2,6 @@ let hello = "Want to play a game of rock-paper-scissors in the console?";
 alert(hello)
 
 
-
-}
- console.log(playerSelection);
-
 const choices = ["rock", "paper", "scissors"];
 computerSelection = choices[Math.floor(Math.random() * choices.length)];
 console.log(computerSelection);
