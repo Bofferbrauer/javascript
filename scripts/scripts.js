@@ -1,4 +1,4 @@
-let hello = "Want to play a game of rock-paper-scissors in the console?";
+let hello = "You want to play a game of rock-paper-scissors in the console?";
 alert(hello)
 
 
@@ -44,4 +44,4 @@ function game() {
             
       }
       
-}
+}}
