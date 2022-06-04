@@ -2,11 +2,7 @@ let hello = "Want to play a game of rock-paper-scissors in the console?";
 alert(hello)
 
 
-let player = prompt("Rock, Paper or Scissors? :");
-alert(player)
-playerSelection = player.toLowerCase();
-if (playerSelection != "rock" || "paper" || "scissors") {
-      alert("Type one of the three wordsplease, and nothing else!")
+
 }
  console.log(playerSelection);
 
@@ -18,6 +14,13 @@ console.log(computerSelection);
 
 function game() {
       for (let rounds = 5; rounds > 0; rounds--) {
+
+            let player = prompt("Rock, Paper or Scissors? :");
+            alert(player)
+            playerSelection = player.toLowerCase();
+            if (playerSelection != "rock" || "paper" || "scissors") {
+            alert("Type one of the three wordsplease, and nothing else!")
+
             if (computerSelection == playerSelection) {
                   return "It's a Draw"
             }
