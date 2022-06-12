@@ -6,7 +6,7 @@ const choices = ["rock", "paper", "scissors"];
 computerSelection = choices[Math.floor(Math.random() * choices.length)];
 console.log(computerSelection);
 
-      
+  game()    
 
 function game() {
       for (let rounds = 5; rounds > 0; rounds--) {
@@ -15,7 +15,7 @@ function game() {
             alert(player)
             playerSelection = player.toLowerCase();
             if (playerSelection != "rock" || "paper" || "scissors") {
-            alert("Type one of the three wordsplease, and nothing else!")
+            alert("Type one of the three words please, and nothing else!")
 
             if (computerSelection == playerSelection) {
                   return "It's a Draw"
